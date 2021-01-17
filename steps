@@ -1,0 +1,12 @@
+create application 
+php artisan serve
+composer require laravel/jetstream
+9
+php artisan jetstream:install livewire
+10
+npm install && npm run dev
+11
+database connection 
+13
+php artisan migrate
+14
